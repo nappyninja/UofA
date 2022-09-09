@@ -5,7 +5,7 @@ validating checksums, as well as sender code.
 
 Quick! What do I have to write?
 ===============================
-Sender.py is the file in which you will implement your reliable sender. Sender.py 
+Sender.py is the file in which reliable sender is implemented. Sender.py 
 provides all the scaffolding you need to handle the command line arguments.
 
 The Receiver
