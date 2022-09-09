@@ -1,26 +1,20 @@
 MIS 543 Online - Project 2 - Reliable Transport Protocol
 
 In this folder you'll find the sample receiver, code for computing and
-validating checksums, as well as example sender code.
+validating checksums, as well as sender code.
 
 Quick! What do I have to write?
 ===============================
-Sender.py is the file in which you will implement your reliable sender. You do
-not need to modify any other included files to complete this project. Sender.py 
-provides all the scaffolding you need to handle the command line arguments we 
-will use in the grading of your project.
+Sender.py is the file in which you will implement your reliable sender. Sender.py 
+provides all the scaffolding you need to handle the command line arguments.
 
 The Receiver
 ============
-Receiver.py is the sample receiver. The version of Receiver.py here is largely
-identical to what we will use for grading your projects (what we actually use
-may include additional instrumentation to assist in grading, but should not vary
-significantly in functionality). Feel free to learn from it.
+Receiver.py is the sample receiver. 
 
 BasicSender and Sender
 =======================
-The BasicSender class in BasicSender.py provides a skeleton upon which to build
-your reliable sender. It provides the following methods:
+The BasicSender class in BasicSender.py is where the reliable sender is built. Provide the following methods:
 
     __init__(self,dest,port,filename): Creates a BasicSender. Specify the
         destination's hostname, the port at which the receiver is listening,
@@ -49,8 +43,6 @@ In addition, it defines one method which you must implement:
 
     start(self): Starts the Sender.
 
-We provide starter code in Sender that build upon the BasicSender; you should work
-on top of the existing Sender.
 
 
 Checksums
@@ -92,10 +84,7 @@ is the path to the receiver implementation. Inside TestHarness.py, you need to
 modify the function "tests_to_run" at the top of the script to include any test
 cases you add.
 
-Passing the basic test cases we provide is a necessary but not sufficient
-condition for doing well on this project; there are still some edge cases that
-they do not cover. You should think about what these edge cases might be and 
-write appropriate test cases to cover them.
+
 
 Acknowldgement
 ==============
