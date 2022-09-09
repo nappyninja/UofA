@@ -1,4 +1,4 @@
-MIS 543 Online - Project 2 - Reliable Transport Protocol
+MIS 543 - Project 2 - Reliable Transport Protocol
 
 In this folder you'll find the sample receiver, code for computing and
 validating checksums, as well as sender code.
