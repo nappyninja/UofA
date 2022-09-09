@@ -1,6 +1,6 @@
 MIS542O_Project2-master
 
-This program uses a reliable transport protocol to form a socket connection between the sender and the server. Cick on directory for it's own README.txt Cick on directory for it's own README.txt 
+This program uses a reliable transport protocol to form a socket connection between the sender and the server. Cick on directory for it's own README.txt.
 
 url_parse.py
 Is a program that parses web urls and stores that file. Then the parsed attributes of the url are displayed.
