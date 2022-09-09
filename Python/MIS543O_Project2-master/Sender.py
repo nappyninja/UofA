@@ -9,7 +9,7 @@ import Checksum
 import BasicSender
 
 '''
-This is a skeleton sender class. Create a fantastic transport protocol here.
+Create a fantastic transport protocol here.
 '''
 class Sender(BasicSender.BasicSender):
     def __init__(self, dest, port, filename, debug=False):
@@ -39,7 +39,7 @@ class Sender(BasicSender.BasicSender):
             self.send(packet.encode())
             print("sent: %s" % packet)
 
-            ##### your code goes here ... #####
+         
             # your code should be able to handle packet 
             # 1. loss
             # 2. corruption
