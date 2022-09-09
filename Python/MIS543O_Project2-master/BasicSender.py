@@ -5,8 +5,7 @@ import random
 import Checksum
 
 '''
-This is the basic sender class. Your sender will extend this class and will
-implement the start() method.
+
 '''
 class BasicSender(object):
     def __init__(self,dest,port,filename,debug=False):
